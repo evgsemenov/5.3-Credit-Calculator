@@ -4,11 +4,11 @@ public class Main {
 
         int creditSum = 1_000_000;
         double creditPercent = 9.99;
-        int creditTime = 24;
+        int creditTime = 12;
         int monthlyPaymentOneYear = creditCalc.calculate (creditSum, creditPercent, creditTime);
         System.out.println("Ежемесячный платеж: " + monthlyPaymentOneYear + " р." );
 
-
+//
 //        int creditSum = 1_000_000;
 //        double creditPercent = 9.99;
 //        int creditTime = 24;
